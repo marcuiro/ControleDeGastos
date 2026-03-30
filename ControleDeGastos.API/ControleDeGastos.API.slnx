@@ -1,0 +1,14 @@
+<Solution>
+  <Folder Name="/1 - Aplicacao/">
+    <Project Path="ControleDeGastos.API/ControleDeGastos.API.csproj" />
+  </Folder>
+  <Folder Name="/2 - Dominio/">
+    <Project Path="ControleDeGastos.API.Dominio/ControleDeGastos.API.Dominio.csproj" />
+  </Folder>
+  <Folder Name="/3 - Infra/">
+    <Project Path="ControleDeGastos.API.Infra/ControleDeGastos.API.Infra.csproj" Id="8be90f8d-e739-4632-9ed0-46eec2aff77e" />
+  </Folder>
+  <Folder Name="/Solution Items/">
+    <File Path=".editorconfig" />
+  </Folder>
+</Solution>

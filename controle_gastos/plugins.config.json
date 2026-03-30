@@ -1,0 +1,42 @@
+{
+    "Explicacao": "Arquivo json para armazenamento da configuração de módulos",
+
+    "modules": [
+        {
+            "id": "pessoas",
+            "name": "Pessoas",
+            "icon": "FaPeopleGroup",
+            "resources": [
+                {
+                    "id": "gerenciar",
+                    "name": "Gerenciar Pessoas",
+                    "src": "./src/pages/Pessoas/index.tsx"
+                }
+            ]
+        },
+        {
+            "id": "categorias",
+            "name": "Categorias",
+            "icon": "FaBarsStaggered",
+            "resources": [
+                {
+                    "id": "gerenciar",
+                    "name": "Gerenciar Categorias",
+                    "src": "./src/pages/Pessoas/index.tsx"
+                }
+            ]
+        },
+        {
+            "id": "transacoes",
+            "name": "Transações",
+            "icon": "FaMoneyBillTransfer",
+            "resources": [
+                {
+                    "id": "gerenciar",
+                    "name": "Gerenciar Transações",
+                    "src": "./src/pages/Pessoas/index.tsx"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,389 @@
+[
+  {
+    "ContainingType": "ControleDeGastos.API.Controllers.CategoriasController",
+    "Method": "AdicionarCategoria",
+    "RelativePath": "AdicionarCategoria",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "categoriaDTO",
+        "Type": "ControleDeGastos.API.DTO.CategoriaDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Infraestrutura.Models.Resposta",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ControleDeGastos.API.Controllers.PessoasController",
+    "Method": "AdicionarPessoa",
+    "RelativePath": "AdicionarPessoa",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "pessoaDTO",
+        "Type": "ControleDeGastos.API.DTO.PessoaDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Infraestrutura.Models.Resposta",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ControleDeGastos.API.Controllers.TransacaoController",
+    "Method": "AdicionarTransacao",
+    "RelativePath": "AdicionarTransacao",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "transacaoDTO",
+        "Type": "ControleDeGastos.API.DTO.TransacaoDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Infraestrutura.Models.Resposta",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ControleDeGastos.API.Controllers.CategoriasController",
+    "Method": "EditarCategoria",
+    "RelativePath": "EditarCategoria",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": false
+      },
+      {
+        "Name": "categoriaDTO",
+        "Type": "ControleDeGastos.API.DTO.CategoriaDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Infraestrutura.Models.Resposta",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ControleDeGastos.API.Controllers.PessoasController",
+    "Method": "EditarPessoa",
+    "RelativePath": "EditarPessoa",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": false
+      },
+      {
+        "Name": "pessoaDTO",
+        "Type": "ControleDeGastos.API.DTO.PessoaDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Infraestrutura.Models.Resposta",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ControleDeGastos.API.Controllers.TransacaoController",
+    "Method": "EditarTransacao",
+    "RelativePath": "EditarTransacao",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": false
+      },
+      {
+        "Name": "transacaoDTO",
+        "Type": "ControleDeGastos.API.DTO.TransacaoDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Infraestrutura.Models.Resposta",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ControleDeGastos.API.Controllers.CategoriasController",
+    "Method": "ObtenhaCategoria",
+    "RelativePath": "ObtenhaCategoria",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Infraestrutura.Models.Resposta\u00601[[ControleDeGastos.API.Dominio.Models.Categoria, ControleDeGastos.API.Dominio, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ControleDeGastos.API.Controllers.CategoriasController",
+    "Method": "ObtenhaCategorias",
+    "RelativePath": "ObtenhaCategorias",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "Infraestrutura.Models.Resposta\u00601[[System.Collections.Generic.IEnumerable\u00601[[ControleDeGastos.API.Dominio.Models.Categoria, ControleDeGastos.API.Dominio, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ControleDeGastos.API.Controllers.PessoasController",
+    "Method": "ObtenhaPessoa",
+    "RelativePath": "ObtenhaPessoa",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Infraestrutura.Models.Resposta\u00601[[ControleDeGastos.API.Dominio.Models.Pessoa, ControleDeGastos.API.Dominio, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ControleDeGastos.API.Controllers.PessoasController",
+    "Method": "ObtenhaPessoas",
+    "RelativePath": "ObtenhaPessoas",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "Infraestrutura.Models.Resposta\u00601[[System.Collections.Generic.IEnumerable\u00601[[ControleDeGastos.API.Dominio.Models.Pessoa, ControleDeGastos.API.Dominio, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ControleDeGastos.API.Controllers.TransacaoController",
+    "Method": "ObtenhaTransacao",
+    "RelativePath": "ObtenhaTransacao",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Infraestrutura.Models.Resposta\u00601[[ControleDeGastos.API.Dominio.Models.Transacao, ControleDeGastos.API.Dominio, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ControleDeGastos.API.Controllers.TransacaoController",
+    "Method": "ObtenhaTransacoes",
+    "RelativePath": "ObtenhaTransacoes",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "Infraestrutura.Models.Resposta\u00601[[System.Collections.Generic.IEnumerable\u00601[[ControleDeGastos.API.Dominio.Models.Transacao, ControleDeGastos.API.Dominio, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ControleDeGastos.API.Controllers.CategoriasController",
+    "Method": "RemoverCategoria",
+    "RelativePath": "RemoverCategoria",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Infraestrutura.Models.Resposta",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ControleDeGastos.API.Controllers.PessoasController",
+    "Method": "RemoverPessoa",
+    "RelativePath": "RemoverPessoa",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Infraestrutura.Models.Resposta",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ControleDeGastos.API.Controllers.TransacaoController",
+    "Method": "RemoverTransacao",
+    "RelativePath": "RemoverTransacao",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Infraestrutura.Models.Resposta",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  }
+]

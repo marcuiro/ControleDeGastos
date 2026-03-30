@@ -1,0 +1,972 @@
+{
+  "openapi": "3.0.4",
+  "info": {
+    "title": "ControleDeGastos.API",
+    "version": "1.0"
+  },
+  "paths": {
+    "/ObtenhaCategorias": {
+      "get": {
+        "tags": [
+          "Categorias"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/CategoriaIEnumerableResposta"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/CategoriaIEnumerableResposta"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/CategoriaIEnumerableResposta"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/ObtenhaCategoria": {
+      "get": {
+        "tags": [
+          "Categorias"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "string",
+              "format": "uuid"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/CategoriaResposta"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/CategoriaResposta"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/CategoriaResposta"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/AdicionarCategoria": {
+      "post": {
+        "tags": [
+          "Categorias"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/CategoriaDTO"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/CategoriaDTO"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/CategoriaDTO"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/Resposta"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Resposta"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Resposta"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/RemoverCategoria": {
+      "delete": {
+        "tags": [
+          "Categorias"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "string",
+              "format": "uuid"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/Resposta"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Resposta"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Resposta"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/EditarCategoria": {
+      "put": {
+        "tags": [
+          "Categorias"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "string",
+              "format": "uuid"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/CategoriaDTO"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/CategoriaDTO"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/CategoriaDTO"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/Resposta"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Resposta"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Resposta"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/ObtenhaPessoas": {
+      "get": {
+        "tags": [
+          "Pessoas"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/PessoaIEnumerableResposta"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/PessoaIEnumerableResposta"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/PessoaIEnumerableResposta"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/ObtenhaPessoa": {
+      "get": {
+        "tags": [
+          "Pessoas"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "string",
+              "format": "uuid"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/PessoaResposta"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/PessoaResposta"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/PessoaResposta"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/AdicionarPessoa": {
+      "post": {
+        "tags": [
+          "Pessoas"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/PessoaDTO"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/PessoaDTO"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/PessoaDTO"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/Resposta"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Resposta"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Resposta"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/RemoverPessoa": {
+      "delete": {
+        "tags": [
+          "Pessoas"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "string",
+              "format": "uuid"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/Resposta"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Resposta"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Resposta"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/EditarPessoa": {
+      "put": {
+        "tags": [
+          "Pessoas"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "string",
+              "format": "uuid"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/PessoaDTO"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/PessoaDTO"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/PessoaDTO"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/Resposta"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Resposta"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Resposta"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/ObtenhaTransacoes": {
+      "get": {
+        "tags": [
+          "Transacao"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/TransacaoIEnumerableResposta"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/TransacaoIEnumerableResposta"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/TransacaoIEnumerableResposta"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/ObtenhaTransacao": {
+      "get": {
+        "tags": [
+          "Transacao"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "string",
+              "format": "uuid"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/TransacaoResposta"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/TransacaoResposta"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/TransacaoResposta"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/AdicionarTransacao": {
+      "post": {
+        "tags": [
+          "Transacao"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/TransacaoDTO"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/TransacaoDTO"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/TransacaoDTO"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/Resposta"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Resposta"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Resposta"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/EditarTransacao": {
+      "put": {
+        "tags": [
+          "Transacao"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "string",
+              "format": "uuid"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/TransacaoDTO"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/TransacaoDTO"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/TransacaoDTO"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/Resposta"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Resposta"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Resposta"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/RemoverTransacao": {
+      "delete": {
+        "tags": [
+          "Transacao"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "string",
+              "format": "uuid"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/Resposta"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Resposta"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Resposta"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "Categoria": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "format": "uuid"
+          },
+          "dataCriacao": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "dataAtualizacao": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "descricao": {
+            "type": "string",
+            "nullable": true
+          },
+          "finalidade": {
+            "$ref": "#/components/schemas/EnumFinalidade"
+          },
+          "transacoes": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/Transacao"
+            },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "CategoriaDTO": {
+        "required": [
+          "descricao",
+          "finalidade"
+        ],
+        "type": "object",
+        "properties": {
+          "descricao": {
+            "minLength": 1,
+            "type": "string"
+          },
+          "finalidade": {
+            "type": "integer",
+            "format": "int32"
+          }
+        },
+        "additionalProperties": false
+      },
+      "CategoriaIEnumerableResposta": {
+        "type": "object",
+        "properties": {
+          "dados": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/Categoria"
+            },
+            "nullable": true
+          },
+          "sucesso": {
+            "type": "boolean"
+          },
+          "mensagemErro": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "CategoriaResposta": {
+        "type": "object",
+        "properties": {
+          "dados": {
+            "$ref": "#/components/schemas/Categoria"
+          },
+          "sucesso": {
+            "type": "boolean"
+          },
+          "mensagemErro": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "EnumFinalidade": {
+        "enum": [
+          0,
+          1,
+          2
+        ],
+        "type": "integer",
+        "format": "int32"
+      },
+      "Pessoa": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "format": "uuid"
+          },
+          "dataCriacao": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "dataAtualizacao": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "nome": {
+            "type": "string",
+            "nullable": true
+          },
+          "idade": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "transacoes": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/Transacao"
+            },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "PessoaDTO": {
+        "required": [
+          "idade",
+          "nome"
+        ],
+        "type": "object",
+        "properties": {
+          "nome": {
+            "minLength": 1,
+            "type": "string"
+          },
+          "idade": {
+            "type": "integer",
+            "format": "int32"
+          }
+        },
+        "additionalProperties": false
+      },
+      "PessoaIEnumerableResposta": {
+        "type": "object",
+        "properties": {
+          "dados": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/Pessoa"
+            },
+            "nullable": true
+          },
+          "sucesso": {
+            "type": "boolean"
+          },
+          "mensagemErro": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "PessoaResposta": {
+        "type": "object",
+        "properties": {
+          "dados": {
+            "$ref": "#/components/schemas/Pessoa"
+          },
+          "sucesso": {
+            "type": "boolean"
+          },
+          "mensagemErro": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "Resposta": {
+        "type": "object",
+        "properties": {
+          "dados": {
+            "nullable": true
+          },
+          "sucesso": {
+            "type": "boolean"
+          },
+          "mensagemErro": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "Transacao": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "format": "uuid"
+          },
+          "dataCriacao": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "dataAtualizacao": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "categoriaId": {
+            "type": "string",
+            "format": "uuid"
+          },
+          "pessoaId": {
+            "type": "string",
+            "format": "uuid"
+          },
+          "descricao": {
+            "type": "string",
+            "nullable": true
+          },
+          "valor": {
+            "type": "number",
+            "format": "double"
+          },
+          "tipo": {
+            "$ref": "#/components/schemas/EnumFinalidade"
+          },
+          "categoria": {
+            "$ref": "#/components/schemas/Categoria"
+          },
+          "pessoa": {
+            "$ref": "#/components/schemas/Pessoa"
+          }
+        },
+        "additionalProperties": false
+      },
+      "TransacaoDTO": {
+        "required": [
+          "categoriaId",
+          "pessoaId",
+          "tipo",
+          "valor"
+        ],
+        "type": "object",
+        "properties": {
+          "categoriaId": {
+            "type": "string",
+            "format": "uuid"
+          },
+          "pessoaId": {
+            "type": "string",
+            "format": "uuid"
+          },
+          "descricao": {
+            "type": "string",
+            "nullable": true
+          },
+          "valor": {
+            "type": "number",
+            "format": "double"
+          },
+          "tipo": {
+            "type": "integer",
+            "format": "int32"
+          }
+        },
+        "additionalProperties": false
+      },
+      "TransacaoIEnumerableResposta": {
+        "type": "object",
+        "properties": {
+          "dados": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/Transacao"
+            },
+            "nullable": true
+          },
+          "sucesso": {
+            "type": "boolean"
+          },
+          "mensagemErro": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "TransacaoResposta": {
+        "type": "object",
+        "properties": {
+          "dados": {
+            "$ref": "#/components/schemas/Transacao"
+          },
+          "sucesso": {
+            "type": "boolean"
+          },
+          "mensagemErro": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      }
+    }
+  },
+  "tags": [
+    {
+      "name": "Categorias"
+    },
+    {
+      "name": "Pessoas"
+    },
+    {
+      "name": "Transacao"
+    }
+  ]
+}

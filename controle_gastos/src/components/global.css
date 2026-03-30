@@ -1,0 +1,172 @@
+/* Css usado em todo o código */
+:root {
+  --white-100: #ffffff;
+  --white-200: #f2f3f4;
+  --white-300: #e9ecef;
+  --white-400: #dee2e6;
+  --white-500: #4c5359;
+
+  --black-100: #abaeb1;
+  --black-200: #7d7686;
+  --black-300: #2d353c;
+  --black-400: #1d2226;
+
+  --gray-100: #e2e2e2;
+  --gray-200: #717171;
+  --gray-300: #383838;
+  --gray-400: #1c1c1c;
+
+  --red-100: #ffdedd;
+  --red-200: #ffbdbc;
+  --red-300: #ff9d9a;
+  --red-400: #ff7c79;
+  --red-500: #ff5b57;
+
+  --default: #dee2e6;
+  --success: #00acac;
+  --success-hover: #009191;
+  --warning: #f59c1a;
+  --warning-hover: #d3861b;
+  --warning-light: #ffddab;
+  --danger: #e61b1b;
+  --danger-hover: #bc1818;
+}
+
+&&.warning {
+  background: var(--warning);
+}
+
+&&.success {
+  background: var(--success);
+}
+
+&&.danger {
+  background: var(--danger);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--white-200);
+  color: var(--black-300);
+  -webkit-font-smoothing: antialiased;
+}
+
+body,
+input,
+textarea,
+button {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+}
+
+.pnotify-custom-container {
+  border-radius: 8px;
+  border-left-width: 5px;
+  border-left-style: solid;
+}
+
+.pnotify-custom-container.error {
+    background-color: #f8d7da !important;
+    color: #842029 !important;
+    border-color: #4b1116;
+}
+
+.pnotify-custom-container.success {
+    background-color: #bef9de !important;
+    color: #0f5132 !important;
+    border-color: #0a3722;
+}
+
+.pnotify-custom-container.info {
+    background-color: #fffad2 !important;
+    color: #1c1902 !important;
+    border-color: #67601d;
+}
+
+h1,
+h2,
+h3,
+h4,
+p,
+label,
+span {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+}
+
+a,
+button {
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Safari */
+  -khtml-user-select: none; /* Konqueror HTML */
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+  user-select: none;
+}
+
+table {
+  overflow: hidden;
+  padding: 0;
+  caption-side: bottom;
+  border-collapse: collapse;
+
+  thead {
+    background: var(--gray-100);
+    color: var(--black-200);
+
+    tr th {
+      text-align: inherit;
+      text-align: -webkit-match-parent;
+      padding: 0.225rem 0.5rem;
+      font-size: 0.825rem;
+
+      &:not(:last-child) {
+        border-right: 1px solid var(--white-400);
+      }
+    }
+  }
+
+  tbody {
+    background: var(--white-200);
+    border: 1px solid var(--white-400);
+
+    tr td {
+      font-size: 0.725rem;
+      padding: 0.225rem 0.5rem;
+      color: var(--black-200);
+
+      &:not(:last-child) {
+        border-right: 1px solid var(--white-400);
+      }
+    }
+
+    tr {
+      &:nth-child(2n + 1) {
+        background: var(--white-100);
+      }
+
+      &:not(:last-child) {
+        border-bottom: 1px solid var(--white-400);
+      }
+
+      &:hover {
+        background: var(--white-400);
+      }
+    }
+  }
+}
+
+@keyframes rotateAnimation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="9.0.14" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ControleDeGastos.API.Dominio\ControleDeGastos.API.Dominio.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="Infraestrutura">
+      <HintPath>..\Dependencias\Infraestrutura.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>

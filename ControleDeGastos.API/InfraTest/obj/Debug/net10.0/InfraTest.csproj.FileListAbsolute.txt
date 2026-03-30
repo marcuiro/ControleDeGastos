@@ -1,0 +1,17 @@
+C:\Users\MarcoNeto\Documents\DEV\Maxiprod\ControleDeGastos.API\InfraTest\bin\Debug\net10.0\InfraTest.deps.json
+C:\Users\MarcoNeto\Documents\DEV\Maxiprod\ControleDeGastos.API\InfraTest\bin\Debug\net10.0\InfraTest.dll
+C:\Users\MarcoNeto\Documents\DEV\Maxiprod\ControleDeGastos.API\InfraTest\bin\Debug\net10.0\InfraTest.pdb
+C:\Users\MarcoNeto\Documents\DEV\Maxiprod\ControleDeGastos.API\InfraTest\bin\Debug\net10.0\ControleDeGastos.API.Dominio.dll
+C:\Users\MarcoNeto\Documents\DEV\Maxiprod\ControleDeGastos.API\InfraTest\bin\Debug\net10.0\Infraestrutura.dll
+C:\Users\MarcoNeto\Documents\DEV\Maxiprod\ControleDeGastos.API\InfraTest\bin\Debug\net10.0\ControleDeGastos.API.Dominio.pdb
+C:\Users\MarcoNeto\Documents\DEV\Maxiprod\ControleDeGastos.API\InfraTest\bin\Debug\net10.0\Infraestrutura.pdb
+C:\Users\MarcoNeto\Documents\DEV\Maxiprod\ControleDeGastos.API\InfraTest\obj\Debug\net10.0\InfraTest.csproj.AssemblyReference.cache
+C:\Users\MarcoNeto\Documents\DEV\Maxiprod\ControleDeGastos.API\InfraTest\obj\Debug\net10.0\InfraTest.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\MarcoNeto\Documents\DEV\Maxiprod\ControleDeGastos.API\InfraTest\obj\Debug\net10.0\InfraTest.AssemblyInfoInputs.cache
+C:\Users\MarcoNeto\Documents\DEV\Maxiprod\ControleDeGastos.API\InfraTest\obj\Debug\net10.0\InfraTest.AssemblyInfo.cs
+C:\Users\MarcoNeto\Documents\DEV\Maxiprod\ControleDeGastos.API\InfraTest\obj\Debug\net10.0\InfraTest.csproj.CoreCompileInputs.cache
+C:\Users\MarcoNeto\Documents\DEV\Maxiprod\ControleDeGastos.API\InfraTest\obj\Debug\net10.0\InfraTest.csproj.Up2Date
+C:\Users\MarcoNeto\Documents\DEV\Maxiprod\ControleDeGastos.API\InfraTest\obj\Debug\net10.0\InfraTest.dll
+C:\Users\MarcoNeto\Documents\DEV\Maxiprod\ControleDeGastos.API\InfraTest\obj\Debug\net10.0\refint\InfraTest.dll
+C:\Users\MarcoNeto\Documents\DEV\Maxiprod\ControleDeGastos.API\InfraTest\obj\Debug\net10.0\InfraTest.pdb
+C:\Users\MarcoNeto\Documents\DEV\Maxiprod\ControleDeGastos.API\InfraTest\obj\Debug\net10.0\ref\InfraTest.dll

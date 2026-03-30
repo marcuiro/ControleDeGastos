@@ -1,0 +1,39 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "ControleDeGastos.API.Dominio/1.0.0": {
+        "dependencies": {
+          "Infraestrutura": "1.0.0.0"
+        },
+        "runtime": {
+          "ControleDeGastos.API.Dominio.dll": {}
+        }
+      },
+      "Infraestrutura/1.0.0.0": {
+        "runtime": {
+          "Infraestrutura.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ControleDeGastos.API.Dominio/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Infraestrutura/1.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

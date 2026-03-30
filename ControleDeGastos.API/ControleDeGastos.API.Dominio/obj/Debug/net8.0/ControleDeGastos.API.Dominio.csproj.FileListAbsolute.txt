@@ -1,0 +1,15 @@
+C:\Users\MarcoNeto\Documents\DEV\Maxiprod\ControleDeGastos.API\ControleDeGastos.API.Dominio\bin\Debug\net8.0\ControleDeGastos.API.Dominio.deps.json
+C:\Users\MarcoNeto\Documents\DEV\Maxiprod\ControleDeGastos.API\ControleDeGastos.API.Dominio\bin\Debug\net8.0\ControleDeGastos.API.Dominio.dll
+C:\Users\MarcoNeto\Documents\DEV\Maxiprod\ControleDeGastos.API\ControleDeGastos.API.Dominio\bin\Debug\net8.0\ControleDeGastos.API.Dominio.pdb
+C:\Users\MarcoNeto\Documents\DEV\Maxiprod\ControleDeGastos.API\ControleDeGastos.API.Dominio\bin\Debug\net8.0\Infraestrutura.dll
+C:\Users\MarcoNeto\Documents\DEV\Maxiprod\ControleDeGastos.API\ControleDeGastos.API.Dominio\bin\Debug\net8.0\Infraestrutura.pdb
+C:\Users\MarcoNeto\Documents\DEV\Maxiprod\ControleDeGastos.API\ControleDeGastos.API.Dominio\obj\Debug\net8.0\ControleDeGastos.API.Dominio.csproj.AssemblyReference.cache
+C:\Users\MarcoNeto\Documents\DEV\Maxiprod\ControleDeGastos.API\ControleDeGastos.API.Dominio\obj\Debug\net8.0\ControleDeGastos.API.Dominio.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\MarcoNeto\Documents\DEV\Maxiprod\ControleDeGastos.API\ControleDeGastos.API.Dominio\obj\Debug\net8.0\ControleDeGastos.API.Dominio.AssemblyInfoInputs.cache
+C:\Users\MarcoNeto\Documents\DEV\Maxiprod\ControleDeGastos.API\ControleDeGastos.API.Dominio\obj\Debug\net8.0\ControleDeGastos.API.Dominio.AssemblyInfo.cs
+C:\Users\MarcoNeto\Documents\DEV\Maxiprod\ControleDeGastos.API\ControleDeGastos.API.Dominio\obj\Debug\net8.0\ControleDeGastos.API.Dominio.csproj.CoreCompileInputs.cache
+C:\Users\MarcoNeto\Documents\DEV\Maxiprod\ControleDeGastos.API\ControleDeGastos.API.Dominio\obj\Debug\net8.0\Controle.3CA8DEC4.Up2Date
+C:\Users\MarcoNeto\Documents\DEV\Maxiprod\ControleDeGastos.API\ControleDeGastos.API.Dominio\obj\Debug\net8.0\ControleDeGastos.API.Dominio.dll
+C:\Users\MarcoNeto\Documents\DEV\Maxiprod\ControleDeGastos.API\ControleDeGastos.API.Dominio\obj\Debug\net8.0\refint\ControleDeGastos.API.Dominio.dll
+C:\Users\MarcoNeto\Documents\DEV\Maxiprod\ControleDeGastos.API\ControleDeGastos.API.Dominio\obj\Debug\net8.0\ControleDeGastos.API.Dominio.pdb
+C:\Users\MarcoNeto\Documents\DEV\Maxiprod\ControleDeGastos.API\ControleDeGastos.API.Dominio\obj\Debug\net8.0\ref\ControleDeGastos.API.Dominio.dll

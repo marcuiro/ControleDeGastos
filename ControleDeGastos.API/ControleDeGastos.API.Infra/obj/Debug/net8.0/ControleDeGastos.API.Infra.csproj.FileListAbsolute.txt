@@ -1,0 +1,17 @@
+C:\Users\MarcoNeto\Documents\DEV\Maxiprod\ControleDeGastos.API\ControleDeGastos.API.Infra\bin\Debug\net8.0\ControleDeGastos.API.Infra.deps.json
+C:\Users\MarcoNeto\Documents\DEV\Maxiprod\ControleDeGastos.API\ControleDeGastos.API.Infra\bin\Debug\net8.0\ControleDeGastos.API.Infra.dll
+C:\Users\MarcoNeto\Documents\DEV\Maxiprod\ControleDeGastos.API\ControleDeGastos.API.Infra\bin\Debug\net8.0\ControleDeGastos.API.Infra.pdb
+C:\Users\MarcoNeto\Documents\DEV\Maxiprod\ControleDeGastos.API\ControleDeGastos.API.Infra\bin\Debug\net8.0\ControleDeGastos.API.Dominio.dll
+C:\Users\MarcoNeto\Documents\DEV\Maxiprod\ControleDeGastos.API\ControleDeGastos.API.Infra\bin\Debug\net8.0\Infraestrutura.dll
+C:\Users\MarcoNeto\Documents\DEV\Maxiprod\ControleDeGastos.API\ControleDeGastos.API.Infra\bin\Debug\net8.0\ControleDeGastos.API.Dominio.pdb
+C:\Users\MarcoNeto\Documents\DEV\Maxiprod\ControleDeGastos.API\ControleDeGastos.API.Infra\bin\Debug\net8.0\Infraestrutura.pdb
+C:\Users\MarcoNeto\Documents\DEV\Maxiprod\ControleDeGastos.API\ControleDeGastos.API.Infra\obj\Debug\net8.0\ControleDeGastos.API.Infra.csproj.AssemblyReference.cache
+C:\Users\MarcoNeto\Documents\DEV\Maxiprod\ControleDeGastos.API\ControleDeGastos.API.Infra\obj\Debug\net8.0\ControleDeGastos.API.Infra.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\MarcoNeto\Documents\DEV\Maxiprod\ControleDeGastos.API\ControleDeGastos.API.Infra\obj\Debug\net8.0\ControleDeGastos.API.Infra.AssemblyInfoInputs.cache
+C:\Users\MarcoNeto\Documents\DEV\Maxiprod\ControleDeGastos.API\ControleDeGastos.API.Infra\obj\Debug\net8.0\ControleDeGastos.API.Infra.AssemblyInfo.cs
+C:\Users\MarcoNeto\Documents\DEV\Maxiprod\ControleDeGastos.API\ControleDeGastos.API.Infra\obj\Debug\net8.0\ControleDeGastos.API.Infra.csproj.CoreCompileInputs.cache
+C:\Users\MarcoNeto\Documents\DEV\Maxiprod\ControleDeGastos.API\ControleDeGastos.API.Infra\obj\Debug\net8.0\Controle.F9F94BBD.Up2Date
+C:\Users\MarcoNeto\Documents\DEV\Maxiprod\ControleDeGastos.API\ControleDeGastos.API.Infra\obj\Debug\net8.0\ControleDeGastos.API.Infra.dll
+C:\Users\MarcoNeto\Documents\DEV\Maxiprod\ControleDeGastos.API\ControleDeGastos.API.Infra\obj\Debug\net8.0\refint\ControleDeGastos.API.Infra.dll
+C:\Users\MarcoNeto\Documents\DEV\Maxiprod\ControleDeGastos.API\ControleDeGastos.API.Infra\obj\Debug\net8.0\ControleDeGastos.API.Infra.pdb
+C:\Users\MarcoNeto\Documents\DEV\Maxiprod\ControleDeGastos.API\ControleDeGastos.API.Infra\obj\Debug\net8.0\ref\ControleDeGastos.API.Infra.dll
