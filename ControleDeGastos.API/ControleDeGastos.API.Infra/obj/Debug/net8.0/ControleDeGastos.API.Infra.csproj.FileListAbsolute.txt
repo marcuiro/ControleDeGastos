@@ -15,3 +15,4 @@ C:\Users\MarcoNeto\Documents\DEV\Maxiprod\ControleDeGastos.API\ControleDeGastos.
 C:\Users\MarcoNeto\Documents\DEV\Maxiprod\ControleDeGastos.API\ControleDeGastos.API.Infra\obj\Debug\net8.0\refint\ControleDeGastos.API.Infra.dll
 C:\Users\MarcoNeto\Documents\DEV\Maxiprod\ControleDeGastos.API\ControleDeGastos.API.Infra\obj\Debug\net8.0\ControleDeGastos.API.Infra.pdb
 C:\Users\MarcoNeto\Documents\DEV\Maxiprod\ControleDeGastos.API\ControleDeGastos.API.Infra\obj\Debug\net8.0\ref\ControleDeGastos.API.Infra.dll
+C:\Users\MarcoNeto\Documents\DEV\Maxiprod\ControleDeGastos.API\ControleDeGastos.API.Infra\obj\Debug\net8.0\ControleDeGastos.API.Infra.sourcelink.json

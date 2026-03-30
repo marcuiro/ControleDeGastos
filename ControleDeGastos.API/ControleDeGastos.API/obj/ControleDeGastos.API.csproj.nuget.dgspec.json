@@ -293,6 +293,10 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "Microsoft.AspNetCore.Mvc.Core": {
+              "target": "Package",
+              "version": "[2.3.9, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[9.0.14, )"
@@ -303,6 +307,10 @@
               "target": "Package",
               "version": "[9.0.14, )"
             },
+            "Microsoft.EntityFrameworkCore.Proxies": {
+              "target": "Package",
+              "version": "[9.0.14, )"
+            },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
               "version": "[9.0.14, )"
@@ -310,6 +318,10 @@
             "Ninject": {
               "target": "Package",
               "version": "[3.3.6, )"
+            },
+            "Swashbuckle.AspNetCore.SwaggerGen": {
+              "target": "Package",
+              "version": "[10.1.7, )"
             }
           },
           "imports": [

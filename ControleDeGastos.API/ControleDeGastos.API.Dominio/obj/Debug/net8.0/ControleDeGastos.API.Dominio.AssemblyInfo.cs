@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ControleDeGastos.API.Dominio")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f875c6b96cc88a55cd616fd6fc8ee74f3cb880af")]
 [assembly: System.Reflection.AssemblyProductAttribute("ControleDeGastos.API.Dominio")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ControleDeGastos.API.Dominio")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

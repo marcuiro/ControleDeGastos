@@ -49,7 +49,7 @@ namespace ControleDeGastos.API.Controllers
                 }
                 catch (Exception ex)
                 {
-                    throw new ExcecaoBasica("Falha ao obter transacao", ex);
+                    throw new ExcecaoBasica(ex.Message, ex);
                 }
             });
         }
@@ -66,7 +66,7 @@ namespace ControleDeGastos.API.Controllers
                 }
                 catch (Exception ex)
                 {
-                    throw new ExcecaoBasica("Falha ao adicionar transacao", ex);
+                    throw new ExcecaoBasica(ex.Message, ex);
                 }
             });
         }
@@ -83,7 +83,7 @@ namespace ControleDeGastos.API.Controllers
                 }
                 catch (Exception ex)
                 {
-                    throw new ExcecaoBasica("Falha ao editar transacao", ex);
+                    throw new ExcecaoBasica(ex.Message, ex);
                 }
             });
         }
@@ -99,7 +99,7 @@ namespace ControleDeGastos.API.Controllers
                 }
                 catch (Exception ex)
                 {
-                    throw new ExcecaoBasica("Falha ao remover transacao", ex);
+                    throw new ExcecaoBasica(ex.Message, ex);
                 }
             });
         }

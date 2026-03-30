@@ -173,10 +173,13 @@ C:\Users\MarcoNeto\Documents\DEV\Maxiprod\ControleDeGastos.API\ControleDeGastos.
 C:\Users\MarcoNeto\Documents\DEV\Maxiprod\ControleDeGastos.API\ControleDeGastos.API\obj\Debug\net8.0\staticwebassets.development.json
 C:\Users\MarcoNeto\Documents\DEV\Maxiprod\ControleDeGastos.API\ControleDeGastos.API\obj\Debug\net8.0\staticwebassets.build.endpoints.json
 C:\Users\MarcoNeto\Documents\DEV\Maxiprod\ControleDeGastos.API\ControleDeGastos.API\obj\Debug\net8.0\swae.build.ex.cache
-C:\Users\MarcoNeto\Documents\DEV\Maxiprod\ControleDeGastos.API\ControleDeGastos.API\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
 C:\Users\MarcoNeto\Documents\DEV\Maxiprod\ControleDeGastos.API\ControleDeGastos.API\obj\Debug\net8.0\Controle.9505085E.Up2Date
 C:\Users\MarcoNeto\Documents\DEV\Maxiprod\ControleDeGastos.API\ControleDeGastos.API\obj\Debug\net8.0\ControleDeGastos.API.dll
 C:\Users\MarcoNeto\Documents\DEV\Maxiprod\ControleDeGastos.API\ControleDeGastos.API\obj\Debug\net8.0\refint\ControleDeGastos.API.dll
 C:\Users\MarcoNeto\Documents\DEV\Maxiprod\ControleDeGastos.API\ControleDeGastos.API\obj\Debug\net8.0\ControleDeGastos.API.pdb
 C:\Users\MarcoNeto\Documents\DEV\Maxiprod\ControleDeGastos.API\ControleDeGastos.API\obj\Debug\net8.0\ControleDeGastos.API.genruntimeconfig.cache
 C:\Users\MarcoNeto\Documents\DEV\Maxiprod\ControleDeGastos.API\ControleDeGastos.API\obj\Debug\net8.0\ref\ControleDeGastos.API.dll
+C:\Users\MarcoNeto\Documents\DEV\Maxiprod\ControleDeGastos.API\ControleDeGastos.API\bin\Debug\net8.0\Microsoft.Extensions.Diagnostics.Abstractions.dll
+C:\Users\MarcoNeto\Documents\DEV\Maxiprod\ControleDeGastos.API\ControleDeGastos.API\bin\Debug\net8.0\Microsoft.Extensions.Hosting.Abstractions.dll
+C:\Users\MarcoNeto\Documents\DEV\Maxiprod\ControleDeGastos.API\ControleDeGastos.API\bin\Debug\net8.0\Microsoft.Extensions.ObjectPool.dll
+C:\Users\MarcoNeto\Documents\DEV\Maxiprod\ControleDeGastos.API\ControleDeGastos.API\obj\Debug\net8.0\ControleDeGastos.API.sourcelink.json

@@ -26,7 +26,7 @@ namespace ControleDeGastos.API.Dominio.Servicos
             catch (Exception ex)
             {
                 await base.UnidadeDeTrabalho.RevertaTransacao();
-                throw new ExcecaoBasica("Falha ao adicionar pessoa", ex);
+                throw new ExcecaoBasica(ex.Message, ex);
             }
         }
 
@@ -46,7 +46,7 @@ namespace ControleDeGastos.API.Dominio.Servicos
             catch (Exception ex)
             {
                 await base.UnidadeDeTrabalho.RevertaTransacao();
-                throw new ExcecaoBasica("Falha ao editar pessoa", ex);
+                throw new ExcecaoBasica(ex.Message, ex);
             }
         }
 
@@ -64,7 +64,7 @@ namespace ControleDeGastos.API.Dominio.Servicos
             catch (Exception ex)
             {
                 await base.UnidadeDeTrabalho.RevertaTransacao();
-                throw new ExcecaoBasica("Falha ao remover pessoa", ex);
+                throw new ExcecaoBasica(ex.Message, ex);
             }
         }
     }

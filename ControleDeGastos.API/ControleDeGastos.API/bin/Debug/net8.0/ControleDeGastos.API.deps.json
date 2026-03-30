@@ -67,6 +67,27 @@
           }
         }
       },
+      "Microsoft.AspNetCore.Hosting.Abstractions/2.3.0": {
+        "dependencies": {
+          "Microsoft.Extensions.Hosting.Abstractions": "8.0.1"
+        }
+      },
+      "Microsoft.AspNetCore.Http/2.3.0": {
+        "dependencies": {
+          "Microsoft.Extensions.ObjectPool": "8.0.11",
+          "Microsoft.Extensions.Options": "9.0.14"
+        }
+      },
+      "Microsoft.AspNetCore.Mvc.Core/2.3.9": {
+        "dependencies": {
+          "Microsoft.AspNetCore.Hosting.Abstractions": "2.3.0",
+          "Microsoft.AspNetCore.Http": "2.3.0",
+          "Microsoft.Extensions.DependencyInjection": "9.0.14",
+          "Microsoft.Extensions.DependencyModel": "9.0.14",
+          "Microsoft.Extensions.Logging.Abstractions": "9.0.14",
+          "System.Diagnostics.DiagnosticSource": "9.0.14"
+        }
+      },
       "Microsoft.Bcl.AsyncInterfaces/7.0.0": {
         "runtime": {
           "lib/netstandard2.1/Microsoft.Bcl.AsyncInterfaces.dll": {
@@ -572,6 +593,32 @@
           }
         }
       },
+      "Microsoft.Extensions.Diagnostics.Abstractions/8.0.1": {
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "9.0.14",
+          "Microsoft.Extensions.Options": "9.0.14"
+        },
+        "runtime": {
+          "lib/net8.0/Microsoft.Extensions.Diagnostics.Abstractions.dll": {
+            "assemblyVersion": "8.0.0.0",
+            "fileVersion": "8.0.1024.46610"
+          }
+        }
+      },
+      "Microsoft.Extensions.Hosting.Abstractions/8.0.1": {
+        "dependencies": {
+          "Microsoft.Extensions.Configuration.Abstractions": "9.0.14",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "9.0.14",
+          "Microsoft.Extensions.Diagnostics.Abstractions": "8.0.1",
+          "Microsoft.Extensions.Logging.Abstractions": "9.0.14"
+        },
+        "runtime": {
+          "lib/net8.0/Microsoft.Extensions.Hosting.Abstractions.dll": {
+            "assemblyVersion": "8.0.0.0",
+            "fileVersion": "8.0.1024.46610"
+          }
+        }
+      },
       "Microsoft.Extensions.Logging/9.0.14": {
         "dependencies": {
           "Microsoft.Extensions.DependencyInjection": "9.0.14",
@@ -594,6 +641,14 @@
           "lib/net8.0/Microsoft.Extensions.Logging.Abstractions.dll": {
             "assemblyVersion": "9.0.0.0",
             "fileVersion": "9.0.1426.11910"
+          }
+        }
+      },
+      "Microsoft.Extensions.ObjectPool/8.0.11": {
+        "runtime": {
+          "lib/net8.0/Microsoft.Extensions.ObjectPool.dll": {
+            "assemblyVersion": "8.0.0.0",
+            "fileVersion": "8.0.1124.52116"
           }
         }
       },
@@ -1087,9 +1142,12 @@
       },
       "Infraestrutura/1.0.0": {
         "dependencies": {
+          "Microsoft.AspNetCore.Mvc.Core": "2.3.9",
           "Microsoft.EntityFrameworkCore": "9.0.14",
+          "Microsoft.EntityFrameworkCore.Proxies": "9.0.14",
           "Microsoft.EntityFrameworkCore.SqlServer": "9.0.14",
-          "Ninject": "3.3.6"
+          "Ninject": "3.3.6",
+          "Swashbuckle.AspNetCore.SwaggerGen": "10.1.7"
         },
         "runtime": {
           "Infraestrutura.dll": {
@@ -1133,6 +1191,27 @@
       "sha512": "sha512-lQKvtaTDOXnoVJ20ibTuSIOf2i0uO0MPbDhd1jm238I+U/2ZnRENj0cktKZhtchBMtCUSRQ5v4xBCUbKNmyVMw==",
       "path": "humanizer.core/2.14.1",
       "hashPath": "humanizer.core.2.14.1.nupkg.sha512"
+    },
+    "Microsoft.AspNetCore.Hosting.Abstractions/2.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-4ivq53W2k6Nj4eez9wc81ytfGj6HR1NaZJCpOrvghJo9zHuQF57PLhPoQH5ItyCpHXnrN/y7yJDUm+TGYzrx0w==",
+      "path": "microsoft.aspnetcore.hosting.abstractions/2.3.0",
+      "hashPath": "microsoft.aspnetcore.hosting.abstractions.2.3.0.nupkg.sha512"
+    },
+    "Microsoft.AspNetCore.Http/2.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-I9azEG2tZ4DDHAFgv+N38e6Yhttvf+QjE2j2UYyCACE7Swm5/0uoihCMWZ87oOZYeqiEFSxbsfpT71OYHe2tpw==",
+      "path": "microsoft.aspnetcore.http/2.3.0",
+      "hashPath": "microsoft.aspnetcore.http.2.3.0.nupkg.sha512"
+    },
+    "Microsoft.AspNetCore.Mvc.Core/2.3.9": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-lir+8KX+kFjaUYFDw6R1kJAxBPOAjSKrLEji/rW+h8ePqloVZ5xnzlPttGUPbOkvMXIQKW3mCvtUfVlqCagX5Q==",
+      "path": "microsoft.aspnetcore.mvc.core/2.3.9",
+      "hashPath": "microsoft.aspnetcore.mvc.core.2.3.9.nupkg.sha512"
     },
     "Microsoft.Bcl.AsyncInterfaces/7.0.0": {
       "type": "package",
@@ -1288,6 +1367,20 @@
       "path": "microsoft.extensions.dependencymodel/9.0.14",
       "hashPath": "microsoft.extensions.dependencymodel.9.0.14.nupkg.sha512"
     },
+    "Microsoft.Extensions.Diagnostics.Abstractions/8.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-elH2vmwNmsXuKmUeMQ4YW9ldXiF+gSGDgg1vORksob5POnpaI6caj1Hu8zaYbEuibhqCoWg0YRWDazBY3zjBfg==",
+      "path": "microsoft.extensions.diagnostics.abstractions/8.0.1",
+      "hashPath": "microsoft.extensions.diagnostics.abstractions.8.0.1.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Hosting.Abstractions/8.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-nHwq9aPBdBPYXPti6wYEEfgXddfBrYC+CQLn+qISiwQq5tpfaqDZSKOJNxoe9rfQxGf1c+2wC/qWFe1QYJPYqw==",
+      "path": "microsoft.extensions.hosting.abstractions/8.0.1",
+      "hashPath": "microsoft.extensions.hosting.abstractions.8.0.1.nupkg.sha512"
+    },
     "Microsoft.Extensions.Logging/9.0.14": {
       "type": "package",
       "serviceable": true,
@@ -1301,6 +1394,13 @@
       "sha512": "sha512-uodlxeHHtvEgrAXzHa5T+ESnQhxCk/QSONpiabWjZ8Hn+PcMkXtmbX8YkL1XcFGHqj7hZXUAe2pq7gBptPTz2Q==",
       "path": "microsoft.extensions.logging.abstractions/9.0.14",
       "hashPath": "microsoft.extensions.logging.abstractions.9.0.14.nupkg.sha512"
+    },
+    "Microsoft.Extensions.ObjectPool/8.0.11": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-6ApKcHNJigXBfZa6XlDQ8feJpq7SG1ogZXg6M4FiNzgd6irs3LUAzo0Pfn4F2ZI9liGnH1XIBR/OtSbZmJAV5w==",
+      "path": "microsoft.extensions.objectpool/8.0.11",
+      "hashPath": "microsoft.extensions.objectpool.8.0.11.nupkg.sha512"
     },
     "Microsoft.Extensions.Options/9.0.14": {
       "type": "package",

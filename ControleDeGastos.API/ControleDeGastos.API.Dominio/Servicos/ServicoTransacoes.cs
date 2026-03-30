@@ -44,7 +44,7 @@ namespace ControleDeGastos.API.Dominio.Servicos
             catch (Exception ex)
             {
                 await base.UnidadeDeTrabalho.RevertaTransacao();
-                throw new ExcecaoBasica("Falha ao adicionar Transacao", ex);
+                throw new ExcecaoBasica(ex.Message, ex);
             }
         }
 
@@ -61,7 +61,7 @@ namespace ControleDeGastos.API.Dominio.Servicos
             catch (Exception ex)
             {
                 await base.UnidadeDeTrabalho.RevertaTransacao();
-                throw new ExcecaoBasica("Falha ao adicionar Transacao", ex);
+                throw new ExcecaoBasica(ex.Message, ex);
             }
         }
 
@@ -84,7 +84,7 @@ namespace ControleDeGastos.API.Dominio.Servicos
             catch (Exception ex)
             {
                 await base.UnidadeDeTrabalho.RevertaTransacao();
-                throw new ExcecaoBasica("Falha ao adicionar Transacao", ex);
+                throw new ExcecaoBasica(ex.Message, ex);
             }
         }
     }

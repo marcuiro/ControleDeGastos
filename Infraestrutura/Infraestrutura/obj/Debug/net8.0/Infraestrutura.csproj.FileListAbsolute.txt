@@ -14,3 +14,4 @@ C:\Users\MarcoNeto\Documents\DEV\Maxiprod\Infraestrutura\Infraestrutura\obj\Debu
 C:\Users\MarcoNeto\Documents\DEV\Maxiprod\Infraestrutura\Infraestrutura\obj\Debug\net8.0\Infraestrutura.pdb
 C:\Users\MarcoNeto\Documents\DEV\Maxiprod\Infraestrutura\Infraestrutura\obj\Debug\net8.0\Infraestrutura.genruntimeconfig.cache
 C:\Users\MarcoNeto\Documents\DEV\Maxiprod\Infraestrutura\Infraestrutura\obj\Debug\net8.0\ref\Infraestrutura.dll
+C:\Users\MarcoNeto\Documents\DEV\Maxiprod\Infraestrutura\Infraestrutura\obj\Debug\net8.0\Infraestrutura.sourcelink.json
